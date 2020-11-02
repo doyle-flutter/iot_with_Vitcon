@@ -12,7 +12,7 @@ void loop(){
     
 }
 
-void ctrFAN(boolean b){
+void ctrFAN(bool b){
     if(b){
         SoftPWM.set(100);
     }
